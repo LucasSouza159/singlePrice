@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins";
+}
+
+/*Container*/
+.container {
+  width: 800px;
+  height: 600px;
+  background: white;
+  box-shadow: -3px 5px 50px #ccc;
+  margin: 80px auto;
+  border-radius: 10px;
+}
+/*descrição*/
+.descricao {
+  width: 800px;
+  padding: 40px;
+}
+.descricao h1 {
+  color: rgb(4, 153, 133);
+  font-size: 35px;
+  letter-spacing: 1.5px;
+  margin-bottom: 20px;
+}
+.descricao h2 {
+  color: rgb(220, 240, 41);
+  margin-bottom: 10px;
+}
+.descricao p {
+  color: rgb(156, 154, 154);
+  letter-spacing: 0.8px;
+  margin-bottom: 40px;
+}
+/*container preço*/
+.container-preco {
+  display: flex;
+  justify-content: space-between;
+}
+.preco {
+  width: 400px;
+  background-color: rgb(32, 161, 129);
+  height: 312px;
+  border-radius: 0px 0px 0px 10px;
+  color: white;
+  padding: 40px;
+}
+.preco h2 {
+  font-size: 18px;
+  letter-spacing: 1.5px;
+  margin-bottom: 20px;
+}
+.preco h3 {
+  font-weight: normal;
+  color: rgb(132, 248, 219);
+  letter-spacing: 1px;
+}
+.preco span {
+  font-size: 35px;
+  color: white;
+  font-weight: bold;
+}
+.preco p {
+  color: rgb(191, 255, 239);
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+}
+.btn {
+  display: inline-block;
+  width: 280px;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  background: rgb(220, 240, 41);
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.384);
+  border-radius: 10px;
+}
+/*Why*/
+.why {
+  width: 400px;
+  background-color: rgba(9, 196, 149, 0.842);
+  border-radius: 0px 0px 10px 0px;
+  padding: 40px;
+}
+.why li,
+h2 {
+  list-style: none;
+  color: rgb(224, 224, 224);
+  letter-spacing: 1px;
+}
+.why h2 {
+  margin-bottom: 20px;
+}
